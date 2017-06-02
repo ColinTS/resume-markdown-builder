@@ -1,8 +1,8 @@
-# Alex Ito
+# Colin Sygiel
 
 1. 123 Manoa Drive Honolulu, HI 96822
 1. (808) 555-5555
-1. [github-url](https://github.com/USERNAME)
+1. [github-url](https://github.com/ColinTS)
 1. [linkedin-url](linkedin-url)
 
 ## Objective

@@ -16,7 +16,7 @@ gulp.task('watch-files', function() {
 gulp.task('markdown', function() {
   gulp.src('./app/*.md')
     .pipe(markdown())
-    .pipe(gap.prependText('<!DOCTYPE html><html><head><link rel="stylesheet" type="text/css" href="https://devleague-resumes.airshipcms.io/assets/styles/default.css"><link rel="stylesheet" type="text/css" href="styles.css"><link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet"><title>Alex Ito</title><meta name="description" content="Resume for Alex Ito, Full Stack Javascript Developer" /><meta name="robots" content="index,follow" /><meta name="keywords" content="Alex, Ito, Alex Ito, resume, Javascript developer" /></head>'))
+    .pipe(gap.prependText('<!DOCTYPE html><html><head><link rel="stylesheet" type="text/css" href="https://devleague-resumes.airshipcms.io/assets/styles/default.css"><link rel="stylesheet" type="text/css" href="styles.css"><link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet"><title>Alex Ito</title><meta name="description" content="Resume for Colin Sygiel, Full Stack Javascript Developer" /><meta name="robots" content="index,follow" /><meta name="keywords" content="Colin, Sygiel, Colin Sygiel, resume, Javascript developer" /></head>'))
     .pipe(gap.appendText('</html>'))
     .pipe(gulp.dest('public'))
     .pipe(connect.reload());
